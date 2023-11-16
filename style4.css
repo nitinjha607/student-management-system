@@ -1,0 +1,141 @@
+/* Add this to your existing styles.css or create a new CSS file */
+/* Basic styling - customize as needed */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.student-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal-info {
+    flex: 1;
+}
+
+.student-image {
+    width: 200px;
+    /* Adjust the image width as needed */
+}
+
+#student-info1 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: right;
+    margin: 20px 0;
+    width: 50%;
+}
+
+#student-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    width: 50%;
+}
+
+#student-list {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    /* Add a grey border */
+    border-radius: 10px;
+    /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+}
+
+
+#dashboard {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Style for login and signup forms */
+#login,#attendance-update,
+#signup {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login h2,#attendance-update h2,
+#signup h2 {
+    margin-bottom: 10px;
+}
+
+/* Style for form fields and buttons */
+input[type="text"],
+
+input[type="password"],
+input[type="email"],
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+    

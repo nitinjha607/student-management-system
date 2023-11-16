@@ -1,0 +1,7 @@
+INSERT INTO courses (course_name, course_code, instructor_name, credits, semester)
+VALUES ('Mathematics', 'BAS303', 'Prof. Ganesh', 4, 'Semester-I');
+
+
+UPDATE employees
+SET salary = 50000
+WHERE department = 'IT';
